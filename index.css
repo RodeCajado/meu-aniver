@@ -1,0 +1,62 @@
+body{
+   background-color: rosybrown;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 6px 6px 9px black;
+}
+
+
+main{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container figure{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items:center;
+    font-family: "Dosis", sans-serif;
+    
+   
+  }
+
+  .container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 6px solid rgba(63, 3, 48, 0.842);
+
+}
+
+figcaption{
+
+    margin-top: 10px;
+    font-family: "Itim", cursive;
+    font-size: 20px;
+
+}
+
+.container figure:hover{
+    border-radius: 20px;
+    background-color: rgb(234, 44, 120);
+    box-shadow: 9px 9px 9px black;
+    
+}
+
+
+
